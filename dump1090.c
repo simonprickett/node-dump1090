@@ -2174,7 +2174,7 @@ char *aircraftsToJson(int *len) {
         p--;
         buflen++;
     }
-    l = snprintf(p,buflen,"]\n");
+    l = snprintf(p,buflen,"]");
     p += l; buflen -= l;
 
     *len = p-buf;
