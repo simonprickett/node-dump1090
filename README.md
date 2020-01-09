@@ -12,7 +12,7 @@ On MacOS with `brew` they can be staisfied just by running: `brew install librtl
 
 1. `npm install --save node-dump1090`
 2. Use following code to receive events:
-```nodejs
+```node
 const EventEmitter = require('events').EventEmitter;
 const dump1090 = require('./node_modules/node-dump1090/build/Release/dump1090.node');
 const NativeEmitter = dump1090.NativeEmitter;
