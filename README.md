@@ -6,7 +6,7 @@ NodeJS wrapper of dump1090
 - libusb
 - librtlsdr
 
-On MacOS with `brew` they can be staisfied just by running: `brew install librtlsdr`
+On MacOS with `brew` they can be satisfied just by running: `brew install librtlsdr`
 
 ## Usage
 
